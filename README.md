@@ -1,14 +1,15 @@
 # Mi primera calculadora
 
 El proyecto consiste en una calculadora que realiza operaciones basicas, medias y avanzadas.
-## Project Structure
+## Estructura del programa
 
 ```
 my_calculadora
 ├── modules
 │   ├── check_data
-│   │   ├── __init__.py
 │   │   └── check_data.py
+│   ├── interfaz
+│   │   └── menu.py
 │   ├── math_basic
 │   │   └── operations_basic.py
 │   ├── math_middle
@@ -17,14 +18,9 @@ my_calculadora
 │   │   ├── mcd.py
 │   │   ├── mcm.py
 │   ├── math_advanced
-│   │   ├── fibonacci.py
+│   │   └──fibonacci.py
 ├── tests
-│   ├── test_basic_math.py
-│   ├── test_comparison.py
-│   ├── test_fibonacci.py
-│   ├── test_factorial.py
-│   ├── test_lcm.py
-│   ├── test_gcd.py
+│   └── test_basic_math.py
 ├── main.py
 └── README.md
 ```
@@ -53,10 +49,9 @@ El modulo contiene la operacion de mcd.
 ### `menu.py`
 
 El modulo contiene el menu de la calculadora.
-## import
+## Utilizar el menu
 
-Para importar el modulo se debe hacer de la siguiente manera:
+Para utilizar el menu se debe importar el modulo menu.py.
 
 ```python
-import my_calculadora import main
-```
+from my_calculadora.modules import menu
