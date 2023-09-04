@@ -1,5 +1,5 @@
 def fibonacci(n):
-    if n <= 0:
+    if n <= 1:
         print("Error: El número debe ser mayor a cero")
         return 0
     resultado = []
@@ -9,3 +9,5 @@ def fibonacci(n):
         a, b = b, a + b
     print(f'El resultado de la serie fibonacci es: {" ".join(map(str, resultado))}')
     return resultado
+
+fibonacci(10)
