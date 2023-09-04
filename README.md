@@ -15,16 +15,11 @@ my_calculadora
 │   │   ├── comparison.py
 │   │   ├── factorial.py
 │   │   ├── mcd.py
-│   │   ├── mcm.py
+│   │   └── mcm.py
 │   ├── math_advanced
-│   │   ├── fibonacci.py
+│   │   └──fibonacci.py
 ├── tests
-│   ├── test_basic_math.py
-│   ├── test_comparison.py
-│   ├── test_fibonacci.py
-│   ├── test_factorial.py
-│   ├── test_lcm.py
-│   ├── test_gcd.py
+│   └── test_basic_math.py
 ├── main.py
 └── README.md
 ```
